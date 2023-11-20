@@ -1,0 +1,57 @@
+.doglist {
+  background: #242222;
+}
+
+
+
+.intro-container {
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+
+#dog-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+
+}
+
+.mycard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(192, 189, 189, 0.747);
+  width: 400px;
+  height: 550px;
+}
+
+.card-info {
+  text-align: left;
+}
+
+.card-info p {
+  font-weight: bold;
+  margin: 5px;
+  font-style: italic;
+}
+
+.img-container {
+  width: 250px;
+  height: 250px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dogName {
+  font-size: 22px;
+}
